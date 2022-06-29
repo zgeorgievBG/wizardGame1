@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Softuni Wizard</title>
+</head>
+<body>
+    <div class="game-view">
+        <div class="user-settings">
+            <div class="options">
+            <label >Player Name: </label>
+            <input type="text" name="username" placeholder="Type your user name" class="slider username" id="userName">
+            </div>  
+            <div class="options">
+            <label>Bug speed: </label>
+            <input type="range" min="1" max="30" value="55" class="slider" id="bugSpeed">
+        </div>
+            <div class="options">
+            <label>Bug spawn: </label>
+            <input type="range" min="1500" max="10000" value="4500" class="slider" id="bugSpawn">
+        </div>
+        <div class="options">
+            <label>Wizard speed: </label>
+            <input type="range" min="10" max="40" value="5" class="slider" id="wizSpeed">
+        </div>
+        <div class="options">
+            <label>Fireball speed: </label>
+            <input type="range" min="10" max="25" value="15" class="slider" id="fballSpeed">
+        </div>
+        <div class="options ">
+            <label>Spawn zombies: </label>
+            <input type="checkbox" class="slider zombie-spawn" id="zombieSpawn">
+        </div>
+        </div>
+        <div class="start-screen">Click to start</div>
+        <div class="game-screen hidden">
+            <div class="score"></div>
+        </div>
+        <div class="play-again hidden">Play again</div>
+    </div>
+
+    <script src="js/gameState.js"></script>
+    <script src="js/gameObjects.js"></script>
+    <script src="js/gameEngine.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

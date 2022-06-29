@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.game-view {
+  /* background-image: linear-gradient(to bottom, #19bdff, #55ceff, #cdf0ff); */
+  background-image: url('../images/nature.png');
+  width: 100vw;
+  height: 100vh;
+}
+
+.start-screen {
+  background-color: #0072a0;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.start-screen:hover {
+  background-color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
+.game-screen {
+
+  /* background-image: linear-gradient(to bottom, #19bdff, #55ceff, #cdf0ff); */
+  background-image: url('../images/nature.png');
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.play-again {
+  background-color: #0072a0;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-again:hover {
+  background-color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+
+.wizard {
+  position: absolute;
+  background-image: url("../images/wizard.png");
+  background-size: cover;
+}
+
+.fire-ball {
+  position: absolute;
+  background-image: url("../images/fire-ball.png");
+  background-size: cover;
+}
+
+.cloud {
+  position: absolute;
+  background-image: url("../images/cloud.png");
+  background-size: cover;
+}
+
+.bug {
+  position: absolute;
+  background-image: url("../images/bug.png");
+  background-size: cover;
+}
+.zombie-left {
+  position: absolute;
+  background-image: url("../images/zombie1.png");
+  background-size: cover;
+}
+.zombie-right {
+  position: absolute;
+  background-image: url("../images/zombie2.png");
+  background-size: cover;
+}
+
+.user-settings {
+    position: absolute;
+    font-style: bold;
+    left: 25px;
+    top: 10%;
+    font-size: 30px;
+    width: 28%;
+    height: 41%;
+    border-style: solid;
+    padding: 20px;
+    background-color: #0072a0;
+    border-radius: 15px;
+
+}
+
+.hidden {
+  display: none;
+}
+
+.options  {
+  position: relative;
+  padding: 15px;
+
+}
+
+.options:first-of-type {
+  padding-top: 0px;
+}
+
+.slider {
+  float: right;
+  padding: 10px;
+  padding-right: 40px;
+}
+
+.slider.zombie-spawn {
+  position: absolute;
+  transform: scale(1.5);
+  left: 240px;
+  top: 40%;
+}
+
+.username {
+  position: relative;
+  width: 37%;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
